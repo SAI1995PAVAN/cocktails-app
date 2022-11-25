@@ -1,0 +1,70 @@
+.single-cocktail {
+  max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 1px rgb(218, 215, 215);
+  margin: 2em;
+}
+
+.cocktail-image {
+  width: 100%;
+  height: 320px;
+}
+
+.cocktail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: inherit;
+}
+
+.cocktail-content {
+  padding: 1em 1em;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cocktail-name,
+.cocktail-type,
+.alcoholic-ornot {
+  margin-bottom: 0.5em;
+}
+.cocktail-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.cocktail-type {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.alcoholic-ornot {
+  color: rgb(97, 95, 95);
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.details-button {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5em 0.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #476a2e;
+  border-color: #476a2e;
+  width: 8em;
+  display: inline;
+  margin: 1em 0;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+}
+
+.details-button:hover {
+  background-color: #d4e6a5;
+  border-color: #d4e6a5;
+  color: #476a2e;
+  transition: 0.5s;
+}

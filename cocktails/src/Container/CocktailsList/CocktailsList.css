@@ -1,0 +1,21 @@
+.cocktailslist-component {
+  width: 100%;
+  margin: 2em 0;
+  height: 100%;
+}
+
+.cocktails-container {
+  max-width: 1240px;
+  margin: auto;
+  padding: 1em;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+}
+
+@media screen and (max-width: 600px) {
+  .cocktails-container {
+    width: 400px;
+    margin: auto;
+  }
+}

@@ -1,3 +1,6 @@
+The idea of this app is taken from john-smilga react projects.
+https://react-projects-15-cocktails.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
